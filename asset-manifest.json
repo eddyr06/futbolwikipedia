@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/futbolwikipedia/static/css/main.0f6dd45e.chunk.css",
-    "main.js": "/futbolwikipedia/static/js/main.b7ceaddf.chunk.js",
-    "main.js.map": "/futbolwikipedia/static/js/main.b7ceaddf.chunk.js.map",
+    "main.js": "/futbolwikipedia/static/js/main.f90aabee.chunk.js",
+    "main.js.map": "/futbolwikipedia/static/js/main.f90aabee.chunk.js.map",
     "runtime-main.js": "/futbolwikipedia/static/js/runtime-main.443ade86.js",
     "runtime-main.js.map": "/futbolwikipedia/static/js/runtime-main.443ade86.js.map",
     "static/css/2.383c0125.chunk.css": "/futbolwikipedia/static/css/2.383c0125.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.462f3048.chunk.js",
     "static/css/main.0f6dd45e.chunk.css",
-    "static/js/main.b7ceaddf.chunk.js"
+    "static/js/main.f90aabee.chunk.js"
   ]
 }
