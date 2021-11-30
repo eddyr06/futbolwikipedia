@@ -25,8 +25,6 @@ const Standings = (props) => {
     <div>
       <div className="list-group">
         {standingsArr.seasons?.map((league) => {
-          // console.log("this is league,year", league.year);
-          // console.log(props.match.params.league);
           return (
             <Link
               className="list-group-item list-group-item-action league-links"

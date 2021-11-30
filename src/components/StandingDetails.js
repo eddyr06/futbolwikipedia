@@ -6,7 +6,7 @@ import { Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const StandingDetails = (props) => {
-  // console.log("this is standingdetails props", props);
+  console.log("this is standingdetails props", props);
   // console.log("this is standingdetails props year", props.location.state.year);
   const [standingDeets, setStandingDeets] = React.useState({});
   const [test, setTest] = React.useState({});

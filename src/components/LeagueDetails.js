@@ -7,6 +7,8 @@ import SearchBar from "./SearchBar";
 const LeagueDetails = (props) => {
   const [leagueArr, setLeagueArr] = React.useState([]);
   const [leaguesDeets, setLeaguesDeets] = React.useState({});
+  const [filteredData, setFilteredData] = React.useState([]);
+  const [searchText, setSearchText] = React.useState("");
 
   useEffect(() => {
     axios
@@ -24,21 +26,23 @@ const LeagueDetails = (props) => {
       });
   }, [props]);
 
-  // console.log('this is league deets'. leaguesDeets)
+  useEffect(() => {
+    const newFilter = leagueArr.filter((value) => {
+      return value.name.includes(searchText);
+    });
+    setFilteredData(newFilter);
+  }, [searchText]);
 
   return (
     <div className="row">
       <div className="col-5">
-        <SearchBar teams={leagueArr} />
+        {/* <SearchBar teams={leagueArr} /> */}
         <br />
         <LeaguesList />
       </div>
 
       <div className="col-7">
         <h1>{leaguesDeets.name}</h1>
-        {/* <table>
-        <thead></thead>
-      <tbody> */}
         {leaguesDeets.logos && (
           <img src={leaguesDeets.logos.light} alt={leaguesDeets.name} />
         )}
@@ -64,8 +68,6 @@ const LeagueDetails = (props) => {
         >
           Standings
         </Link>
-        {/* </tbody>
-      </table> */}
       </div>
     </div>
   );

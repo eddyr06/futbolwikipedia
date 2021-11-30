@@ -8,8 +8,8 @@ const TeamNavBar = (props) => {
   let history = useHistory();
 
   const redirect = (teamPage) => {
-    // history.push(`/LeagueDetails/${teamPage}`);
-    history.push(`/SeasonDetails/${teamPage}`);
+    history.push(`/LeagueDetails/${teamPage}`);
+    // history.push(`/SeasonDetails/${teamPage}`);
   };
 
   useEffect(() => {
