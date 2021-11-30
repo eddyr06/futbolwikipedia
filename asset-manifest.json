@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/futbolwikipedia/static/css/main.0f6dd45e.chunk.css",
-    "main.js": "/futbolwikipedia/static/js/main.9bdbbb98.chunk.js",
-    "main.js.map": "/futbolwikipedia/static/js/main.9bdbbb98.chunk.js.map",
+    "main.js": "/futbolwikipedia/static/js/main.b7ceaddf.chunk.js",
+    "main.js.map": "/futbolwikipedia/static/js/main.b7ceaddf.chunk.js.map",
     "runtime-main.js": "/futbolwikipedia/static/js/runtime-main.443ade86.js",
     "runtime-main.js.map": "/futbolwikipedia/static/js/runtime-main.443ade86.js.map",
     "static/css/2.383c0125.chunk.css": "/futbolwikipedia/static/css/2.383c0125.chunk.css",
-    "static/js/2.24631d41.chunk.js": "/futbolwikipedia/static/js/2.24631d41.chunk.js",
-    "static/js/2.24631d41.chunk.js.map": "/futbolwikipedia/static/js/2.24631d41.chunk.js.map",
+    "static/js/2.462f3048.chunk.js": "/futbolwikipedia/static/js/2.462f3048.chunk.js",
+    "static/js/2.462f3048.chunk.js.map": "/futbolwikipedia/static/js/2.462f3048.chunk.js.map",
     "static/js/3.8a781f9c.chunk.js": "/futbolwikipedia/static/js/3.8a781f9c.chunk.js",
     "static/js/3.8a781f9c.chunk.js.map": "/futbolwikipedia/static/js/3.8a781f9c.chunk.js.map",
     "index.html": "/futbolwikipedia/index.html",
     "static/css/2.383c0125.chunk.css.map": "/futbolwikipedia/static/css/2.383c0125.chunk.css.map",
     "static/css/main.0f6dd45e.chunk.css.map": "/futbolwikipedia/static/css/main.0f6dd45e.chunk.css.map",
-    "static/js/2.24631d41.chunk.js.LICENSE.txt": "/futbolwikipedia/static/js/2.24631d41.chunk.js.LICENSE.txt"
+    "static/js/2.462f3048.chunk.js.LICENSE.txt": "/futbolwikipedia/static/js/2.462f3048.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.443ade86.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.24631d41.chunk.js",
+    "static/js/2.462f3048.chunk.js",
     "static/css/main.0f6dd45e.chunk.css",
-    "static/js/main.9bdbbb98.chunk.js"
+    "static/js/main.b7ceaddf.chunk.js"
   ]
 }
